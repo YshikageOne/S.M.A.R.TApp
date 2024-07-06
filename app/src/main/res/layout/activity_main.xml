@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="249dp"
+        android:layout_height="249dp"
+        android:layout_alignParentLeft="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="S.M.A.R.T"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="256dp"
+        android:layout_height="182dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="by Clyde, Hosea, Daniel"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="140dp"
+        android:layout_height="74dp"
+        android:layout_below="@id/subtitle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="114dp"
+        android:background="#666666"
+        android:gravity="center"
+        android:text="START"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+</RelativeLayout>
